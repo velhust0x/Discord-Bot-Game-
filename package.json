@@ -1,0 +1,22 @@
+{
+  "name": "Perry",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Discord bot with virtual currency, games, shop, and giveaways",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "engines": {
+    "node": ">=18.17"
+  },
+  "dependencies": {
+    "better-sqlite3": "^9.6.0",
+    "dayjs": "^1.11.11",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5",
+    "ms": "^2.1.3"
+  }
+} 

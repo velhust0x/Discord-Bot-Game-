@@ -1,0 +1,15 @@
+version: '3.9'
+services:
+  bot:
+    build: .
+    container_name: meew-bot
+    restart: unless-stopped
+    env_file:
+      - .env
+    volumes:
+      - bot_data:/app/data
+    # If you want to edit files locally and reload, uncomment the next line:
+    # - .:/app
+volumes:
+  bot_data:
+    driver: local
