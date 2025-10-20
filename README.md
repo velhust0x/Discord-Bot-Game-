@@ -1,4 +1,4 @@
-# Aura Economy Bot
+# Gamble Game Bot
 
 Virtual currency bot for Discord: balance, daily reward, transfers, shop + role buying, games (HiLo, Blackjack, Baccarat), and currency giveaways.
 
